@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play } from "lucide-react"
+import { Play } from "lucide-react"
 
 export function Hero() {
   return (
@@ -25,10 +25,6 @@ export function Hero() {
             </p>
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="gap-2">
-                Solicitar demo
-                <ArrowRight className="w-4 h-4" />
-              </Button>
               <Button variant="outline" size="lg" className="gap-2 bg-transparent">
                 <Play className="w-4 h-4" />
                 Ver cómo funciona

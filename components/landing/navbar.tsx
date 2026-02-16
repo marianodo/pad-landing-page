@@ -5,6 +5,8 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+const loginUrl = process.env.NEXT_PUBLIC_LOGIN_URL || "#"
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -35,11 +37,8 @@ export function Navbar() {
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">
-              Iniciar sesión
-            </Button>
-            <Button size="sm">
-              Solicitar demo
+            <Button asChild size="sm">
+              <a href={loginUrl}>Iniciar sesión</a>
             </Button>
           </div>
 
@@ -69,11 +68,8 @@ export function Navbar() {
                 Cómo funciona
               </Link>
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" size="sm" className="justify-start">
-                  Iniciar sesión
-                </Button>
-                <Button size="sm">
-                  Solicitar demo
+                <Button asChild size="sm">
+                  <a href={loginUrl}>Iniciar sesión</a>
                 </Button>
               </div>
             </nav>
