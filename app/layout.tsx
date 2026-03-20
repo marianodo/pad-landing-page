@@ -8,7 +8,7 @@ const _openSans = Open_Sans({ subsets: ["latin"], variable: "--font-secondary" }
 
 export const metadata: Metadata = {
   title: 'PAD - Participación Activa Digital',
-  description: 'Transformá tributos en participación. Conectamos gobiernos locales con ciudadanos a través de encuestas inteligentes, datos en tiempo real e inteligencia artificial.',
+  description: 'Transformá tributos en participación. Conectamos gobiernos locales con ciudadanos a través de consultas inteligentes, datos en tiempo real e inteligencia artificial.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',

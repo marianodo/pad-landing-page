@@ -21,7 +21,7 @@ export function Hero() {
             
             <p className="mt-6 text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 text-pretty">
               Conectamos gobiernos locales con ciudadanos en el momento más relevante: cuando pagan sus tributos. 
-              Encuestas rápidas, datos en tiempo real e inteligencia artificial para decisiones de gestión basadas en evidencia.
+              Consultas rápidas, datos en tiempo real e inteligencia artificial para decisiones de gestión basadas en evidencia.
             </p>
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

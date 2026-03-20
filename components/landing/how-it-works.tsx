@@ -12,7 +12,7 @@ const steps = [
     number: "02",
     icon: MessageSquare,
     title: "Opina",
-    description: "Responde una encuesta rápida de 3-5 preguntas sobre prioridades de inversión.",
+    description: "Responde una consulta rápida de 3-5 preguntas sobre prioridades de inversión.",
     color: "secondary"
   },
   {

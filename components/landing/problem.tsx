@@ -14,7 +14,7 @@ const problems = [
   {
     icon: TrendingDown,
     title: "Datos desactualizados",
-    description: "Encuestas puntuales que no reflejan las preferencias actuales de los vecinos."
+    description: "Consultas puntuales que no reflejan las preferencias actuales de los vecinos."
   },
   {
     icon: AlertTriangle,

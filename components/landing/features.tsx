@@ -10,7 +10,7 @@ import {
 const features = [
   {
     icon: QrCode,
-    title: "Portal de encuestas",
+    title: "Portal de consultas",
     description: "Acceso instantáneo vía QR. Identificación simple con Gmail o datos básicos. Preguntas configurables y sistema de puntos.",
     color: "primary"
   },

@@ -84,7 +84,7 @@ export function Solution() {
             </div>
             
             <div className="mt-8 p-4 rounded-xl bg-card border border-border">
-              <div className="text-sm text-muted-foreground mb-3">Encuesta rápida</div>
+              <div className="text-sm text-muted-foreground mb-3">Consulta rápida</div>
               <div className="space-y-2">
                 <div className="text-sm font-medium text-foreground">{"¿En qué área preferís que se invierta?"}</div>
                 <div className="space-y-2">

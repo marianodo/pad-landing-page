@@ -10,7 +10,7 @@ const comparisons = [
     pad: "Sistema de recompensas y beneficios"
   },
   {
-    traditional: "Datos estáticos (encuestas puntuales)",
+    traditional: "Datos estáticos (consultas puntuales)",
     pad: "Datos continuos y en tiempo real"
   },
   {
