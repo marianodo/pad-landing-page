@@ -30,23 +30,6 @@ export function Hero() {
                 Ver cómo funciona
               </Button>
             </div>
-            
-            <div className="mt-12 flex items-center gap-8 justify-center lg:justify-start">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">+50</div>
-                <div className="text-sm text-muted-foreground">Municipios</div>
-              </div>
-              <div className="w-px h-10 bg-border" />
-              <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">1M+</div>
-                <div className="text-sm text-muted-foreground">Respuestas</div>
-              </div>
-              <div className="w-px h-10 bg-border" />
-              <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">98%</div>
-                <div className="text-sm text-muted-foreground">Satisfacción</div>
-              </div>
-            </div>
           </div>
           
           <div className="relative">
