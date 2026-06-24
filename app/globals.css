@@ -123,3 +123,41 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Paleta propia del Pricing (berenjena/violeta/menta), scopeada solo a /pricing.
+   No afecta al resto del sitio. */
+.theme-pricing {
+  --background: #f2f3f4;
+  --foreground: #201631;
+  --card: #ffffff;
+  --card-foreground: #201631;
+  --popover: #ffffff;
+  --popover-foreground: #201631;
+  --primary: #201631;
+  --primary-foreground: #f2f3f4;
+  --secondary: #e8e9eb;
+  --secondary-foreground: #201631;
+  --muted: #e8e9eb;
+  --muted-foreground: #534a68;
+  --accent: #00ccba;
+  --accent-foreground: #201631;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #d4d5d8;
+  --input: #d4d5d8;
+  --ring: #5941ce;
+  --chart-1: #00ccba;
+  --chart-2: #5941ce;
+  --chart-3: #3c2e51;
+  --chart-4: #534a68;
+  --chart-5: #201631;
+  --radius: 0.625rem;
+  --sidebar: #201631;
+  --sidebar-foreground: #f2f3f4;
+  --sidebar-primary: #5941ce;
+  --sidebar-primary-foreground: #f2f3f4;
+  --sidebar-accent: #3c2e51;
+  --sidebar-accent-foreground: #f2f3f4;
+  --sidebar-border: #3c2e51;
+  --sidebar-ring: #5941ce;
+}
